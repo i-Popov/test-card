@@ -1,0 +1,72 @@
+{
+    "title": "Пиджак CLASP",
+    "price": 27000,
+    "description": "Безупречный пиджак с мужского плеча, на шелковой подкладке с ассиметричным поясом, подчеркивающим талию Прекрасно комбинируется с остальными изделиями из коллекции.",
+    "subDescription": "Сочетайте с кожаным топом и брюками для рабочего дня в офисе, или же предайте образу дерзости, оставив его в расстегнутом виде",
+    "size": [
+        {
+            "item": "XS",
+            "available": false
+        },
+        {
+            "item": "S",
+            "available": true
+        },
+        {
+            "item": "M",
+            "available": true
+        }
+    ],
+    "items": [
+        {
+            "originalAlt": "CLASP",
+            "thumbnailAlt": "CLASP",
+            "original": "/Slider/pants.png",
+            "thumbnail": "/Slider/pants.png"
+        },
+        {
+            "originalAlt": "CLASP",
+            "thumbnailAlt": "CLASP",
+            "original": "/Slider/pants.png",
+            "thumbnail": "/Slider/pants.png"
+        },
+        {
+            "originalAlt": "CLASP",
+            "thumbnailAlt": "CLASP",
+            "original": "/Slider/pants.png",
+            "thumbnail": "/Slider/pants.png"
+        },
+        {
+            "originalAlt": "CLASP",
+            "thumbnailAlt": "CLASP",
+            "original": "/Slider/pants.png",
+            "thumbnail": "/Slider/pants.png"
+        },
+        {
+            "originalAlt": "CLASP",
+            "thumbnailAlt": "CLASP",
+            "original": "/Slider/pants.png",
+            "thumbnail": "/Slider/pants.png"
+        },
+        {
+            "originalAlt": "CLASP",
+            "thumbnailAlt": "CLASP",
+            "original": "/Slider/pants.png",
+            "thumbnail": "/Slider/pants.png"
+        }
+    ],
+    "benefits": [
+        {
+            "alt": "100% recycled",
+            "image": "/Benefits/recycled.svg"
+        },
+        {
+            "alt": "Limited Edition 2021",
+            "image": "/Benefits/limited.svg"
+        },
+        {
+            "alt": "Boy Friend Fit",
+            "image": "/Benefits/boy-friendfit.svg"
+        }
+    ]
+}

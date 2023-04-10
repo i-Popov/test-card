@@ -1,0 +1,98 @@
+@import 'vendor/normalize';
+@import './resources';
+@import './fonts/index';
+@import '~react-image-gallery/styles/scss/image-gallery.scss';
+@import 'react-dropdown/style.css';
+
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+body {
+    font-family: $font_base_name;
+    font-weight: 400;
+    font-size: $sp_base_font_size;
+    line-height: $sp_base_line_height;
+    color: $text_color;
+    width: 100%;
+    background: $pages_back;
+    scroll-behavior: smooth;
+
+    @media (min-width: $sp_bp) {
+        font-size: $tb_base_font_size;
+        line-height: $tb_base_line_height;
+    }
+
+    @media (min-width: $tb_bp) {
+        font-size: $dt_base_font_size;
+        line-height: $dt_base_line_height;
+    }
+}
+
+a {
+    color: $text_color;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+a,
+button,
+button:active,
+button:focus {
+    outline: none;
+}
+
+a,
+p,
+li,
+td,
+span {
+    font-size: $sp_base_font_size;
+    line-height: $sp_base_line_height;
+
+    @media (min-width: $sp_bp) {
+        font-size: $tb_base_font_size;
+        line-height: $tb_base_line_height;
+    }
+    @media (min-width: $tb_bp) {
+        font-size: $dt_base_font_size;
+        line-height: $dt_base_line_height;
+    }
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: $font_header_name;
+    color: $title-color;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: $sp_header_font_size;
+    line-height: $sp_header_line_height;
+    font-weight: 900;
+
+    @media (min-width: $tb_bp) {
+        font-size: $tb_header_font_size;
+        line-height: $tb_header_line_height;
+    }
+
+    @media (min-width: $dt_bp) {
+        font-size: $dt_header_font_size;
+        line-height: $dt_header_line_height;
+    }
+}

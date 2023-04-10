@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'futura-pt';
+    src: url('./FuturaPT-bold/FuturaPT-bold.eot');
+    src: url('./FuturaPT-bold/FuturaPT-bold.eot?#iefix') format('embedded-opentype'),
+        url('./FuturaPT-bold/FuturaPT-bold.woff2') format('woff2'),
+        url('./FuturaPT-bold/FuturaPT-bold.woff') format('woff'),
+        url('./FuturaPT-bold/FuturaPT-bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'futura-pt';
+    src: url('./FuturaPT-medium/FuturaPT-medium.eot');
+    src: url('./FuturaPT-medium/FuturaPT-medium.eot?#iefix') format('embedded-opentype'),
+        url('./FuturaPT-medium/FuturaPT-medium.woff2') format('woff2'),
+        url('./FuturaPT-medium/FuturaPT-medium.woff') format('woff'),
+        url('./FuturaPT-medium/FuturaPT-medium.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'futura-pt';
+    src: url('./FuturaPT-regular/FuturaPT-regular.eot');
+    src: url('./FuturaPT-regular/FuturaPT-regular.eot?#iefix') format('embedded-opentype'),
+        url('./FuturaPT-regular/FuturaPT-regular.woff2') format('woff2'),
+        url('./FuturaPT-regular/FuturaPT-regular.woff') format('woff'),
+        url('./FuturaPT-regular/FuturaPT-regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'inter';
+    src: url('./Inter-Bold/Inter-Bold.eot');
+    src: url('./Inter-Bold/Inter-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./Inter-Bold/Inter-Bold.woff2') format('woff2'), url('./Inter-Bold/Inter-Bold.woff') format('woff'),
+        url('./Inter-Bold/Inter-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'inter';
+    src: url('./Inter-Regular/Inter-Regular.eot');
+    src: url('./Inter-Regular/Inter-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./Inter-Regular/Inter-Regular.woff2') format('woff2'),
+        url('./Inter-Regular/Inter-Regular.woff') format('woff'),
+        url('./Inter-Regular/Inter-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}

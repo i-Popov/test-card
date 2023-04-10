@@ -1,0 +1,55 @@
+@import '../../assets/styles/_resources.scss';
+
+.nav {
+    padding: 24px 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    z-index: 1;
+
+    @media (min-width: $tb_bp) {
+        padding: 40px 0 0;
+        justify-content: space-between;
+    }
+
+    @media (min-width: $dt_bp) {
+        padding: 105px 4px 0;
+    }
+
+    &__road {
+        display: none;
+
+        @media (min-width: $tb_bp) {
+            display: flex;
+        }
+
+        a {
+            display: flex;
+            align-items: center;
+            opacity: 0.3;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 16px;
+            letter-spacing: 0.1em;
+
+            img {
+                width: 14px;
+            }
+        }
+
+        a:after {
+            content: '';
+            width: 14px;
+            height: 14px;
+            background: url('../../assets/images/icons/arrow-left.svg') no-repeat center center;
+            display: block;
+            opacity: 0.5;
+            padding: 5px 13px;
+        }
+    }
+
+    &__back {
+        opacity: 0.3;
+    }
+}
